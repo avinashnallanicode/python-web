@@ -14,8 +14,8 @@ def add_todo():
     writefile(todos)
 
 
-st.title("My Todo Application")
-st.subheader("This is my todo app")
+st.title("My Todo Application.")
+st.subheader("This is my todo app.")
 st.write("Helpful tool to keep track of your day-to-day stuffs.")
 
 
