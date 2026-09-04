@@ -1,0 +1,8 @@
+venv/
+.idea/
+files/
+*.csv
+__**__
+build/
+dist/
+gui.spec
