@@ -27,7 +27,7 @@ for index, task in enumerate(todos):
         del st.session_state[task]
         st.rerun()
 
-st.text_input("Todo item",
+st.text_input( label="Todo item",
               placeholder="Enter a todo...",
               label_visibility="collapsed",
               on_change=add_todo,
