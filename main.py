@@ -16,7 +16,7 @@ def add_todo():
 
 st.title("My Todo Application")
 st.subheader("This is my todo app")
-st.write("Helpful tool to keep track of your day-to-day stuffs")
+st.write("Helpful tool to keep track of your day-to-day stuffs.")
 
 
 for index, task in enumerate(todos):
