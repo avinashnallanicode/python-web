@@ -8,11 +8,14 @@ if not os.path.exists("todos.txt"):
 
 todos = readfile()
 
+st.set_page_config(layout="wide")
+
 def add_todo():
     todo = st.session_state["add"] + "\n"
     todos.append(todo)
     writefile(todos)
 
+# Adding side bar will be automatic, Just add pages folder and add file you want to include (About contact)
 
 st.title("My Todo Application.")
 st.subheader("This is my todo app.")
